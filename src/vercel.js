@@ -1,7 +1,7 @@
 const express = require("express");
 const serverless = require("serverless-http");
 const route = require("./routes/route"); // Ensure the correct path
-const { connectDB } = require("./config/db");
+// const { connectDB } = require("./config/db");
 
 const app = express();
 
@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // Connect to MongoDB
-connectDB();
+// connectDB();
 
 // Routes
 app.use("/", route);
