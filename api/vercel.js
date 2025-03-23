@@ -1,6 +1,6 @@
 const express = require("express");
 const serverless = require("serverless-http");
-const route = require("./routes/route"); // Ensure the correct path
+const route = require("./routes/route"); // Ensure this path is correct
 // const { connectDB } = require("./config/db");
 
 const app = express();
@@ -11,7 +11,7 @@ app.use(express.json());
 // Connect to MongoDB
 // connectDB();
 
-// Routes
+// Load routes
 app.use("/", route);
 
 // Export as a serverless function
