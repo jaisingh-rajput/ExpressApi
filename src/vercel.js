@@ -4,7 +4,7 @@ const app = express()
 const route = require('../src/routes/route')
 const {connectDB, getDB} = require("./config/db");
 app.use(express.json())
-app.use("", route)
+app.use("/", route)
 // Connect to MongoDB
 connectDB();
 
