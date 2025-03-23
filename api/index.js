@@ -4,8 +4,7 @@ const { connectDB } = require("./config/db");
 
 const app = express();
 connectDB();
-app.get("/", route);
-
+app.use("/", route)
 app.listen(3000, () => console.log("Server ready on port 3000."));
 
 module.exports = app;
