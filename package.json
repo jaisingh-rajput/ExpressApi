@@ -2,13 +2,22 @@
   "name": "expressapi",
   "version": "1.0.0",
   "description": "",
-  "main": "vercel.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaisingh-rajput/ExpressApi.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jaisingh-rajput/ExpressApi/issues"
+  },
+  "homepage": "https://github.com/jaisingh-rajput/ExpressApi#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
