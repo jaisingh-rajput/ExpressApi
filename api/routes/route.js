@@ -10,7 +10,7 @@ const router = express.Router()
 // router.put("update_user", update_user)
 // router.get("get_user", get_user)
 
-router.get("/", (req, res) => {
+router.get("", (req, res) => {
     res.send("hello node");
   });
   
